@@ -13,7 +13,7 @@ public class EmailUtil {
 
     public static void sendExtentReportByEmail() {
         final String from = System.getenv("MAIL_FROM");
-        final String password = System.getenv("MAIL_PASSWORD"); 
+        final String password = System.getenv("MAIL_PASS"); 
         final String to = System.getenv("MAIL_TO"); 
 
         String reportPath = new File("target/extent-report.html").getAbsolutePath();
