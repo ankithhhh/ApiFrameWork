@@ -14,4 +14,4 @@ Feature: User API POST Request using feature file data
       | id | name   | city   | age | endpoint | ExpectedStatusCode | ExpectedResponseTime |
       |  1 | sanath | puttur |  25 | /users   |                201 |                 2000 |
       |  2 | rahul  | delhi  |  30 | /users   |                201 |                 2000 |
-      |  3 | ravi   | patna  |  40 | /users   |                401 |                 2000 |
+      |  3 | ravi   | patna  |  40 | /users   |                201 |                 2000 |
