@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "sanath",
+      "city": "puttur",
+      "age": 25,
+      "email": "prr@example.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": "2",
+      "name": "Vivek",
+      "city": "Mlore",
+      "age": 28,
+      "email": "pra@example.com",
+      "phone": "9123456780"
+    },
+    {
+      "id": "3",
+      "name": "Havan",
+      "city": "Kudla",
+      "age": 22,
+      "email": "Havan@example.com",
+      "phone": "1234567890"
+    },
+    {
+      "id": "4",
+      "name": "Alice",
+      "city": "Los Angeles",
+      "age": 22,
+      "email": "alice@example.com",
+      "phone": "9876543211"
+    },
+    {
+      "id": "5",
+      "name": "Bob",
+      "city": "Chicago",
+      "age": 35,
+      "email": "bob@example.com",
+      "phone": "9876543212"
+    },
+    {
+      "id": "6",
+      "name": "Charlie",
+      "city": "Miami",
+      "age": 27,
+      "email": "charlie@example.com",
+      "phone": "9876543213"
+    }
+  ]
+}
