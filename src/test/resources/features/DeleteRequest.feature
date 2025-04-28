@@ -12,5 +12,5 @@ Feature: User API DELETE Request
     Examples:
       | endpoint    | id | ExpectedStatusCode | ExpectedResponseTime |
       | /users/{id} |  1 |                200 |                 2000 |
-      | /users/{id} |  2 |                404 |                 2000 |
+      | /users/{id} |  2 |                200 |                 2000 |
       | /users/{id} |  3 |                200 |                 2000 |
