@@ -17,6 +17,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       
+      - name: Install json-server
+        run: npm install -g json-server
+      
+      - name: Start json-server
+        run: |
+          json-server --watch target/users.json --port 3000 &
+          sleep 5
+        shell: bash
+      
       - name: Set up Java
         uses: actions/setup-java@v3
         with:
